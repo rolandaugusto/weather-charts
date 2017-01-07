@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.App-header {
+  background-color: #333;
+  text-shadow: 2px 2px 2px black;
+  padding: 10px;
+  color: white;
+  letter-spacing: 0.1em;
+  margin-bottom: 10px;
+}
+canvas {
+  max-width: 100% !important;
+  max-height: 100% !important;
+}
+
+.App-header > h2 {
+  font-size: 3vw;
+  text-transform: uppercase;
+}
+
+.App-label {
+  display: block;
+}
+
+.App-content {
+  font-size: large;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 730px;
+  margin: 0 auto;
+}
+
+.App-charts {
+  max-width: 400px;
+  margin: 0 auto 30px;
+}
+
+.App-sliders,
+.App-charts {
+  flex-basis: 100%;
+}
+
+@media (min-width: 720px) {
+  .App-content {
+    flex-wrap: nowrap;
+  }
+
+  .App-sliders,
+  .App-charts {
+    flex-basis: 50%;
+  }
+}
+
+.App-slider {
+  border: 1px solid #ccc;
+  background: white;
+  padding: 10px;
+  max-width: 200px;
+  margin: 10px auto;
+  font-size: 11px;
+}
+.App-slider-value {
+  text-align: center;
+  font-size: small;
+}
+
